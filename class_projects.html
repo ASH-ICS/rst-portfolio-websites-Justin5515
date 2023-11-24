@@ -8,6 +8,28 @@
       background-size: cover;
     }
     </style>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; 
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+    <body>
+  
+    
   <title>Justins's Site</title>
 <link rel="icon" type="image/x-icon" href="/images/ESPN-icon-football-college.png">
 <center>
@@ -18,15 +40,19 @@
   </center>
   
   <br>
+  <div class="row">
+  <div class="column" style="background-color:transparent;">
   <center>
-  <h3>Click Me!</h3>
   <iframe width="410" height="460"
      src="https://academy.cs.cmu.edu/sharing/cornflowerBlueGoat1574/embed"> 
    </iframe>
   </center>
+</div>
+<div class="column" style="background-color:transparent;">
   <center>
-  <h3>Click Me! Click restart to try again.</h3>
   <iframe width="410" height="460"
      src="https://academy.cs.cmu.edu/sharing/rosyBrownLion2523"> 
    </iframe>
   </center>
+</div>
+</div>
